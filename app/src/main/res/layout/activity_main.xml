@@ -14,7 +14,6 @@ android:textColor="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
-
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,7 @@ android:textColor="@color/orange"
 
     <Button
         app:backgroundTint="@null"
-        android:text="Just a button"
+        android:text="@string/btn_text"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
